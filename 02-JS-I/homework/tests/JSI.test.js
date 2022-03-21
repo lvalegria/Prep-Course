@@ -217,7 +217,7 @@ describe('numeroRandom()', function() {
 });
 
 describe('esPositivo(numero)', function() {
-  it('Debería devolver el string \Es positivo ó Es negativo\ según corresponda', function() {
+  it('Debería devolver el string \ Es positivo ó Es negativo\ según corresponda', function() {
     expect(esPositivo(0)).toBe(false);
     expect(esPositivo(23)).toBe('Es positivo');
     expect(esPositivo(-2)).toBe('Es negativo');
